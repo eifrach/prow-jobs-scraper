@@ -16,7 +16,7 @@ updates:
       - "lgtm"
     ignore:
       - name: pydantic
-        versions: ["2.x"]
+        versions: [">=1.10,<2"]
     commit-message:
       prefix: "NO-ISSUE"
     groups:
